@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!--Meta code-basic of the page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--Title-->
+    <title> Front end development task</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+</head>
+
+<body>
+
+     <!--Heading-->
+     <div> <h2 class="line">Bundle & Save</h2></div>
+
+     <!--Box content-->
+     <div class=" box-container">
+
+     <!--1 pair -->
+
+     <!--radio button  -->
+        <div id="pair1" class="box" onclick="color1()" ><table style="width: 100%;" class="off" ><tr>
+           <td> <input type="radio" id="box1" name="dress" onclick="content1('DKK 195.00')" ></td>
+            <td>1 Pair<br><b>DKK 195.00</b></td>
+           <td class="off"><b>50% OFF</b> </td></tr></table>
+
+           <!--size and colour start here-->
+           <div><table id="show1" class="hide" ><tr>
+            <td></td>
+            <td> Size</td>
+            <td>Color</td>
+           </tr>
+           <tr>
+            <td>#1</td>
+            <td><label for="size"></label>
+                <select id="size" name="size">
+                     <option value="s">S</option>
+                      <option value="m">M</option> 
+                      <option value="l">L</option>
+                      </select>
+            </td>
+            <td> <label for="color"> </label>
+                <select id="color" name="color">
+                     <option value="color">Color</option>
+                      <option value="red">Red</option> 
+                      <option value="blue">Blue</option>
+                      </select></td>
+           </tr>
+           <tr>
+           <td>#2</td>
+           <td><label for="size"></label>
+            <select id="size" name="size">
+                 <option value="s">S</option>
+                  <option value="m">M</option> 
+                  <option value="l">L</option>
+                  </select>
+        </td>
+        <td> <label for="color"></label>
+            <select id="color" name="color">
+                 <option value="color">Color</option>
+                  <option value="red">Red</option> 
+                  <option value="blue">Blue</option>
+                  </select></td>
+           
+
+           </tr>
+           </table></div>
+           <!--size and colour end here-->
+           
+        </div>
+
+    <!--2 pair-->
+    <!--radio button  -->
+    <div id="pair2" class="box"><table  style="width: 100%;"><tr>
+        <td> <input type="radio" id="box2" name="dress"  onclick="content2('DKK 345.00')"></td>
+         <td>2 Pair<br><b>DKK 345.00</b></td>
+        <td class="off"> <b><span>MOST POPULAR</span><br>40% OFF </b></td>
+     </tr></table>
+
+     <!--size and colour start here-->
+     <div><table id="show2" class="hide" ><tr>
+        <td></td>
+        <td> Size</td>
+        <td>Color</td>
+       </tr>
+       <tr>
+        <td>#1</td>
+        <td><label for="size"></label>
+            <select id="size" name="size">
+                 <option value="s">S</option>
+                  <option value="m">M</option> 
+                  <option value="l">L</option>
+                  </select>
+        </td>
+        <td> <label for="color"> </label>
+            <select id="color" name="color">
+                 <option value="color">Color</option>
+                  <option value="red">Red</option> 
+                  <option value="blue">Blue</option>
+                  </select></td>
+       </tr>
+       <tr>
+       <td>#2</td>
+       <td><label for="size"></label>
+        <select id="size" name="size">
+             <option value="s">S</option>
+              <option value="m">M</option> 
+              <option value="l">L</option>
+              </select>
+    </td>
+    <td> <label for="color"></label>
+        <select id="color" name="color">
+             <option value="color">Color</option>
+              <option value="red">Red</option> 
+              <option value="blue">Blue</option>
+              </select></td>
+    
+       </tr>
+       </table></div>
+       <!--size and colour end here-->
+     </div>
+
+     <!--3 pair-->
+     <!--radio button  -->
+     <div id="pair3" class="box" ><table style="width: 100%;"><tr>
+        <td> <input type="radio" id="box3" name="dress"  onclick="content3('DKK 528.00')"></td>
+         <td>3 Pair<br><b>DKK 528.00</b></td>
+        <td class="off"><b>60% OFF </b></td>
+
+     </tr></table>
+     <!--size and colour start here-->
+     <div><table id="show3" class="hide"><tr>
+        <td></td>
+        <td> Size</td>
+        <td>Color</td>
+       </tr>
+       <tr>
+        <td>#1</td>
+        <td><label for="size"></label>
+            <select id="size" name="size">
+                 <option value="s">S</option>
+                  <option value="m">M</option> 
+                  <option value="l">L</option>
+                  </select>
+        </td>
+        <td> <label for="color"> </label>
+            <select id="color" name="color">
+                 <option value="color">Color</option>
+                  <option value="red">Red</option> 
+                  <option value="blue">Blue</option>
+                  </select></td>
+       </tr>
+       <tr>
+       <td>#2</td>
+       <td><label for="size"></label>
+        <select id="size" name="size">
+             <option value="s">S</option>
+              <option value="m">M</option> 
+              <option value="l">L</option>
+              </select>
+    </td>
+    <td> <label for="color"></label>
+        <select id="color" name="color">
+             <option value="color">Color</option>
+              <option value="red">Red</option> 
+              <option value="blue">Blue</option>
+              </select></td>
+    
+       </tr>
+       </table></div>
+       <!--size and colour end here-->
+     </div>
+     <!--Total amount-->
+     <div >
+        <table class="Total" style="width: 100%;"> 
+            <tr>
+                <td><span class="Shipping">Free 2 Day Shipping</span></td>
+                <td>Total: <span id="totalValue"></span></td>
+            </tr>
+        </table>
+     </div>
+     <!--add to cart button-->
+     <a href="#" class="cart" onclick="cart()">+Add to Cart</a>
+     <p > &copy Powered by Pumper</p>
+     </div>
+
+</body>
+</html>
+
+
